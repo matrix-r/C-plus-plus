@@ -6,7 +6,15 @@ using namespace std;
 int main() {
     float d, e;
     string operatore;
-    cout << "Witaj w super kalkulatorze Matiego!" << endl;
+    cout << "|---------------------------------|" << endl;
+    cout << "|     Super Kalkulator Matrix     |" << endl;
+    cout << "|             Wersja:             |" << endl;
+    cout << "|               1.1               |" << endl;
+    cout << "|                                 |" << endl;
+    cout << "|              Witaj              |" << endl;
+    cout << "|                                 |" << endl;
+    cout << "|---------------------------------|" << endl;
+
     
  
     cout << "Podaj liczbe 1:    ";
@@ -38,7 +46,7 @@ int main() {
         cout << d / e << endl;  // Dzielenie
     }
     else {
-        cout << "Niepoprawny operator!" << endl;  
+        cout << "Niepoprawny operator, spróbuj ponownie!" << endl;  
     }
 
     return 0;
