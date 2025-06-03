@@ -5,17 +5,20 @@ using namespace std;
 main () 
 
 {
-    int tab[4];
-    tab[0] = 7;
-    tab[1] = 444444;
+   /*
+	int tab[4];
+    tab[0] = 0;
+    tab[1] = 1;
     tab[2] = 2;
-    tab[3] = 1;
+    tab[3] = 3;
     cout << tab[1] << endl << endl;
-    
-    
-	
-	
-	
+   */ 
+	int tab[4];
+    for (int i = 0; i <= 4; i++) {
+		tab[i] = i+2;
+		cout << tab[i] << endl;
+	}  
+		
 	
 	/*char a = 'd';
     switch (a)
