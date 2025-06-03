@@ -12,7 +12,7 @@ main ()
     tab[3] = 1;
     cout << tab[1] << endl << endl;
     */
-		int n = 1234
+		int n = 1234;
 
 		cout << 1234 / 10 << endl;
 		cout << 123 / 10 << endl;
