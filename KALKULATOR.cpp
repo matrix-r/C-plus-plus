@@ -25,7 +25,7 @@ int main() {
 
     
 
-    cout << "Podaj operator dodawania (+), odejmowania (-), mno�enia (*), dzielenia (/): ";
+    cout << "Podaj operator dodawania (+), odejmowania (-), mnozenia (*), dzielenia (/): ";
     cin >> operatore;
 
      //Sprawdzanie operatora i wykonywanie operacji// ////////////////////////////////////////////www/w/w/w/w/w/w//ww/w/w/ww//w/w/;
@@ -39,7 +39,7 @@ int main() {
     }
     else if (operatore == "*") {
         cout << "Obliczam mnozenie... ";
-        cout << d * e  << endl;  // Mno�enie
+        cout << d * e  << endl;  // Mnozenie
     }
     else if (operatore == "/") {
         cout << "Obliczam dzielenie... ";
